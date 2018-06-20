@@ -2,18 +2,17 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>99c7d043-767f-4942-998b-d37b0eab35e7</ProjectGuid>
+    <ProjectGuid>d426025e-ba72-4509-8113-7d80a64f55b2</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>cryptoCurrencyTrade.py</StartupFile>
+    <StartupFile>BLL.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
-    <IsWindowsApplication>True</IsWindowsApplication>
     <InterpreterId>IronPython|2.7-32</InterpreterId>
     <LaunchProvider>IronPython (.NET) launcher</LaunchProvider>
     <OutputPath>.</OutputPath>
-    <Name>cryptoCurrencyTrade</Name>
-    <RootNamespace>cryptoCurrencyTrade</RootNamespace>
+    <Name>BLL</Name>
+    <RootNamespace>BLL</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -24,7 +23,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="cryptoCurrencyTrade.py" />
+    <None Include="BLL.py" />
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="IronPython|2.7-32" />
